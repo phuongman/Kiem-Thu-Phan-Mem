@@ -1,0 +1,6 @@
+Test ID,kWh,Household Type,Expected Output,Actual Output,Passed
+TC1,5000,family,Đầu vào không hợp lệ,Đầu vào không hợp lệ,True
+TC2,50,residential,83900,83900,True
+TC3,80,business,209000,209000,True
+TC4,180,business,505000,505000,True
+TC5,300,business,915000,915000,True
