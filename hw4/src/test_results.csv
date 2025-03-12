@@ -1,0 +1,9 @@
+Test ID,kWh,Household Type,Expected Output,Actual Output,Passed
+tc1,-10,business,Đầu vào không hợp lệ,Đầu vào không hợp lệ,True
+tc2,-15,business,Đầu vào không hợp lệ,Đầu vào không hợp lệ,True
+tc3,35,residential,58730,58730,True
+tc4,50,business,125000,125000,True
+tc5,50,residential,83900,83900,True
+tc6,100,business,265000,265000,True
+tc7,200,residential,372000,372000,True
+tc8,300,business,915000,915000,True
